@@ -26,6 +26,9 @@ Create a `.rubocop.yml` and add the following lines:
 ---
 inherit_gem:
   rubocop-fnando: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 2.6
 ```
 
 If you're using Rails, then use the following lines:
@@ -34,6 +37,10 @@ If you're using Rails, then use the following lines:
 ---
 inherit_gem:
   rubocop-fnando: .rubocop-rails.yml
+
+AllCops:
+  TargetRubyVersion: 2.6
+  TargetRailsVersion: 6.0
 ```
 
 ## Development
