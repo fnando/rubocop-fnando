@@ -1,0 +1,21 @@
+---
+
+inherit_gem:
+  rubocop-fnando: .rubocop.yml
+
+require:
+  - rubocop-rails
+
+Metrics/AbcSize:
+  Exclude:
+    - db/migrate/**.rb
+    - config/config.rb
+    - test/support/**/*.rb
+
+Metrics/BlockLength:
+  Exclude:
+    - config/config.rb
+    - test/support/**/*.rb
+
+Rails/Delegate:
+  Enabled: false
