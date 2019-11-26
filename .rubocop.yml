@@ -24,6 +24,7 @@ Lint/Debugger:
 
 Metrics/LineLength:
   Enabled: true
+  Max: 80
 
 Metrics/MethodLength:
   Enabled: true
@@ -37,8 +38,14 @@ Style/AccessModifierDeclarations:
 Style/Documentation:
   Enabled: false
 
+Style/FormatStringToken:
+  Enabled: false
+
 Style/EmptyMethod:
   EnforcedStyle: expanded
+
+Style/ModuleFunction:
+  Enabled: false
 
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
