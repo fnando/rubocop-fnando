@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-fnando"
-  spec.version       = "0.1.0"
+  spec.version       = "0.0.2"
   spec.authors       = ["Nando Vieira"]
   spec.email         = ["me@fnando.com"]
 
