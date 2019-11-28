@@ -6,7 +6,7 @@ Layout/FirstArrayElementLineBreak:
 Layout/FirstHashElementLineBreak:
   Enabled: true
 
-Layout/IndentFirstArrayElement:
+Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
 Layout/SpaceInsideBlockBraces:
@@ -29,7 +29,7 @@ Metrics/LineLength:
 Metrics/MethodLength:
   Enabled: true
 
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 
 Style/AccessModifierDeclarations:
