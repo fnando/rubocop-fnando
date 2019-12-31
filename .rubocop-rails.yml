@@ -21,7 +21,7 @@ Metrics/BlockLength:
     - config/config.rb
     - test/**/*.rb
 
-Metrics/LineLength:
+Layout/LineLength:
   Exclude:
     - db/**/*.rb
     - config/environments/**/*.rb
