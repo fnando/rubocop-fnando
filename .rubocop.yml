@@ -22,7 +22,7 @@ Lint/Debugger:
   Exclude:
     - test/**/*
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: true
   Max: 80
 
