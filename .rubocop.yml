@@ -32,6 +32,9 @@ Metrics/MethodLength:
 Naming/MethodParameterName:
   Enabled: false
 
+Naming/RescuedExceptionsVariableName:
+  PreferredName: error
+
 Style/AccessModifierDeclarations:
   EnforcedStyle: inline
 
