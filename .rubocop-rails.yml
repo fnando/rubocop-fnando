@@ -12,19 +12,20 @@ require:
 
 Metrics/AbcSize:
   Exclude:
-    - db/**/*.rb
-    - config/config.rb
-    - test/support/**/*.rb
+    - !ruby/regexp /^db\/.*?\.rb$/
+    - !ruby/regexp /^config\/config\.rb$/
+    - !ruby/regexp /^test\/support\/.*?\.rb$/
 
 Metrics/BlockLength:
   Exclude:
-    - config/config.rb
-    - test/**/*.rb
+    - !ruby/regexp /^config\/config\.rb$/
+    - !ruby/regexp /^config\/routes\.rb$/
+    - !ruby/regexp /^test\/support\/factories\/.*?\.rb$/
 
 Layout/LineLength:
   Exclude:
-    - db/**/*.rb
-    - config/environments/**/*.rb
+    - !ruby/regexp /^db\/.*?\.rb$/
+    - !ruby/regexp /^config\/environments\/.*?\.rb$/
 
 Rails/Delegate:
   Enabled: false

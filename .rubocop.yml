@@ -1,5 +1,11 @@
 ---
 
+AllCops:
+  Exclude:
+    - !ruby/regexp /^node_modules\//
+    - !ruby/regexp /^bin\//
+    - !ruby/regexp /^db\/schema\.rb$/
+
 Layout/FirstArrayElementLineBreak:
   Enabled: true
 
@@ -17,10 +23,6 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
   EnforcedStyleForEmptyBraces: no_space
-
-Lint/Debugger:
-  Exclude:
-    - test/**/*
 
 Layout/LineLength:
   Enabled: true
@@ -70,3 +72,12 @@ Style/SymbolArray:
 
 Style/TrailingUnderscoreVariable:
   Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
