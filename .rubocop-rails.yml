@@ -20,6 +20,7 @@ Metrics/BlockLength:
   Exclude:
     - !ruby/regexp /^config\/config\.rb$/
     - !ruby/regexp /^config\/routes\.rb$/
+    - !ruby/regexp /^config\/routes\/.*?\.rb$/
     - !ruby/regexp /^test\/support\/factories\/.*?\.rb$/
 
 Layout/LineLength:
