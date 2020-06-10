@@ -1,10 +1,21 @@
 ---
-
 AllCops:
   Exclude:
     - !ruby/regexp /^node_modules\//
     - !ruby/regexp /^bin\//
     - !ruby/regexp /^db\/schema\.rb$/
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
 
 Layout/FirstArrayElementLineBreak:
   Enabled: true
@@ -81,3 +92,9 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: true
+
+Style/ExponentialNotation:
+  Enabled: true
+
+Style/SlicingWithRange:
+  Enabled: false
