@@ -14,6 +14,9 @@ Lint/RaiseException:
 Lint/StructNewOverride:
   Enabled: true
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Layout/SpaceAroundMethodCallOperator:
   Enabled: true
 
