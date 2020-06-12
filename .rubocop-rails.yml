@@ -1,5 +1,4 @@
 ---
-
 inherit_gem:
   rubocop-fnando: .rubocop.yml
 
@@ -12,21 +11,21 @@ require:
 
 Metrics/AbcSize:
   Exclude:
-    - !ruby/regexp /^db\/.*?\.rb$/
-    - !ruby/regexp /^config\/config\.rb$/
-    - !ruby/regexp /^test\/support\/.*?\.rb$/
+    - !ruby/regexp /db\/.*?\.rb$/
+    - !ruby/regexp /config\/config\.rb$/
+    - !ruby/regexp /test\/support\/.*?\.rb$/
 
 Metrics/BlockLength:
   Exclude:
-    - !ruby/regexp /^config\/config\.rb$/
-    - !ruby/regexp /^config\/routes\.rb$/
-    - !ruby/regexp /^config\/routes\/.*?\.rb$/
-    - !ruby/regexp /^test\/support\/factories\/.*?\.rb$/
+    - !ruby/regexp /config\/config\.rb$/
+    - !ruby/regexp /config\/routes\.rb$/
+    - !ruby/regexp /config\/routes\/.*?\.rb$/
+    - !ruby/regexp /test\/support\/factories\/.*?\.rb$/
 
 Layout/LineLength:
   Exclude:
-    - !ruby/regexp /^db\/.*?\.rb$/
-    - !ruby/regexp /^config\/environments\/.*?\.rb$/
+    - !ruby/regexp /db\/.*?\.rb$/
+    - !ruby/regexp /config\/environments\/.*?\.rb$/
 
 Rails/Delegate:
   Enabled: false
