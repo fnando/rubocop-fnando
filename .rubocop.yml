@@ -1,9 +1,11 @@
 ---
 AllCops:
   Exclude:
-    - !ruby/regexp /node_modules\//
-    - !ruby/regexp /bin\//
-    - !ruby/regexp /db\/schema\.rb$/
+    - !ruby/regexp /\/node_modules\//
+    - !ruby/regexp /\/bin\//
+    - !ruby/regexp /\/db\/schema\.rb$/
+    - !ruby/regexp /\/vendor\//
+    - !ruby/regexp /\/gemfiles\//
 
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
@@ -94,7 +96,7 @@ Style/HashEachMethods:
   Enabled: true
 
 Style/HashTransformKeys:
-  Enabled: true
+  Enabled: false
 
 Style/HashTransformValues:
   Enabled: true
