@@ -5,6 +5,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.13"
   spec.authors       = ["Nando Vieira"]
   spec.email         = ["me@fnando.com"]
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.summary       = "Rubocop configuration"
   spec.description   = spec.summary
@@ -20,6 +21,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) {|f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "rubocop"
+  spec.add_development "rubocop-performance"
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
 end

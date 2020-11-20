@@ -1,4 +1,7 @@
 ---
+require:
+  - rubocop-performance
+
 AllCops:
   Exclude:
     - !ruby/regexp /\/node_modules\//
