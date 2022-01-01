@@ -52,8 +52,8 @@ Layout/LineLength:
   Enabled: true
   Max: 80
 
-Metrics/MethodLength:
-  Enabled: true
+Metrics:
+  Enabled: false
 
 Naming/MethodParameterName:
   Enabled: false
