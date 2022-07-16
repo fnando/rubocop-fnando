@@ -55,6 +55,9 @@ Layout/LineLength:
 Metrics:
   Enabled: false
 
+Naming/BlockForwarding:
+  Enabled: false
+
 Naming/MethodParameterName:
   Enabled: false
 
