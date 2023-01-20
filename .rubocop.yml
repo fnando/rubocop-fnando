@@ -1,6 +1,8 @@
 ---
 require:
   - rubocop-performance
+  - betterlint
+  - rubocop-minitest
 
 AllCops:
   SuggestExtensions: false

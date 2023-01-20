@@ -28,7 +28,7 @@ inherit_gem:
   rubocop-fnando: .rubocop.yml
 
 AllCops:
-  TargetRubyVersion: 2.6
+  TargetRubyVersion: 3.2
 ```
 
 If you're using Rails, then use the following lines:
@@ -39,8 +39,8 @@ inherit_gem:
   rubocop-fnando: .rubocop-rails.yml
 
 AllCops:
-  TargetRubyVersion: 2.6
-  TargetRailsVersion: 6.0
+  TargetRubyVersion: 3.2
+  TargetRailsVersion: 7.0
 ```
 
 ## Development

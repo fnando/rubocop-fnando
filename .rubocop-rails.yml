@@ -1,6 +1,7 @@
 ---
 inherit_gem:
   rubocop-fnando: .rubocop.yml
+  betterlint: config/default.yml
 
 inherit_mode:
   merge:
