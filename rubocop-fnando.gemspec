@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-fnando"
-  spec.version       = "0.0.18"
+  spec.version       = "0.0.19"
   spec.authors       = ["Nando Vieira"]
   spec.email         = ["me@fnando.com"]
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
