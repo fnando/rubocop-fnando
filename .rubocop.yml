@@ -13,6 +13,9 @@ AllCops:
     - !ruby/regexp /\/vendor\//
     - !ruby/regexp /\/gemfiles\//
 
+Gemspec/DevelopmentDependencies:
+  Enabled: false
+
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
 
