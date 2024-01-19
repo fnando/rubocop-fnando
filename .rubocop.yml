@@ -2,6 +2,7 @@
 require:
   - rubocop-performance
   - rubocop-minitest
+  - rubocop-fnando
 
 AllCops:
   SuggestExtensions: false
@@ -15,6 +16,9 @@ AllCops:
 
 Gemspec/DevelopmentDependencies:
   Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: true
 
 Lint/DeprecatedOpenSSLConstant:
   Enabled: true
