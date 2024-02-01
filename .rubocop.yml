@@ -63,6 +63,9 @@ Layout/LineLength:
 Metrics:
   Enabled: false
 
+Minitest/RefutePredicate:
+  Enabled: false
+
 Minitest/AssertPredicate:
   Enabled: false
 
