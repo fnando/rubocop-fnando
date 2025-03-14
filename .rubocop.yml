@@ -1,8 +1,10 @@
 ---
 require:
-  - rubocop-performance
   - rubocop-minitest
   - rubocop-fnando
+
+plugins:
+  - rubocop-performance
 
 AllCops:
   SuggestExtensions: false
