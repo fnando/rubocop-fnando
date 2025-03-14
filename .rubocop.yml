@@ -1,10 +1,10 @@
 ---
 require:
-  - rubocop-minitest
   - rubocop-fnando
 
 plugins:
   - rubocop-performance
+  - rubocop-minitest
 
 AllCops:
   SuggestExtensions: false
