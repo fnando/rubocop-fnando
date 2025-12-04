@@ -139,3 +139,6 @@ Style/RedundantRegexpCharacterClass:
 
 Style/RedundantRegexpEscape:
   Enabled: true
+
+Gemspec/AttributeAssignment:
+  Enabled: false
