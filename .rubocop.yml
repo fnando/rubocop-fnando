@@ -142,3 +142,9 @@ Style/RedundantRegexpEscape:
 
 Gemspec/AttributeAssignment:
   Enabled: false
+
+Style/EmptyClassDefinition:
+  Enabled: false
+
+Style/ReduceToHash:
+  Enabled: false
